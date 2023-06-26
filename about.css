@@ -1,0 +1,227 @@
+
+/* About CSS */
+
+
+* {
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    margin: 30px;
+    padding: 0;
+    background-image: none;
+    background-color: antiquewhite;
+    /* background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fportfolio&psig=AOvVaw2WHieK2I7IspdmzjOR8feu&ust=1687865715718000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIChv_Tr4P8CFQAAAAAdAAAAABAc); */
+    /*background-color: rgba(0, 0, 0, 0.5);  Adjust the opacity by changing the last value (0.5) */
+    /*background-repeat: no-repeat; /* Prevent background image from repeating */
+    /*background-size: cover; /* Resize the background image to cover the entire container */
+    /*background-position: center; /*Center the background image*/
+  }
+
+  header,
+  section,
+  footer {
+    margin: 20px;
+  }
+
+  section,p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:19px;
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 60px;
+    font: size 2000px;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  .image > img {
+    float: left;
+    margin-right: 50px;
+  }
+  ul {
+    padding: 0;
+  }
+
+  /* CSS for weblayout */
+  .web-layout {
+    margin: 80px 0px;
+  }
+
+  .web-layout > div {
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .web-layout > h3 {
+    text-align: center;
+    margin-top: 50px 0px;
+    font-size: xx-large;
+  }
+
+  .content {
+    background-color: aquamarine;
+  }
+
+  .images {
+    float: left;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+
+  .images:hover {
+    opacity: 0.5;
+  }
+
+  .main {
+    background-color:lightcoral;
+    float: left;
+    width: 75.9%;
+    height: 100px;
+  }
+
+  .details {
+    font-size: large;
+    justify-content: center;
+  }
+
+  .proof {
+    background-color: lightgray;
+    text-align: center;
+    float: right;
+  }
+
+  .proof video {
+    margin: 20px 20px;
+  }
+
+  .footer {
+    float: left;
+  }
+
+  .footer :hover {
+    opacity: 0.5;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  /* css certificate */
+  .overall {
+    margin: 100px 20px;
+  }
+
+  .overall h3 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 30px 0px;
+  }
+
+  div.certificate {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: left;
+    margin: 20px;
+  }
+
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+
+  footer{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .button {
+    border-radius: 2px;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  /* Media query for screens smaller than or equal to 768px */
+  @media (max-width: 768px) {
+    body {
+      margin: 10px;
+    }
+
+    header,
+    section,
+    footer {
+      margin: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    .image > img {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .web-layout {
+      margin: 50px 0;
+    }
+
+    .web-layout > div {
+      padding: 10px;
+      margin: 3px;
+    }
+
+    .web-layout > h3 {
+      font-size: large;
+    }
+
+    .images {
+      float: none;
+      margin-top: 30px;
+    }
+
+    .main {
+      width: 100%;
+    }
+
+    .proof {
+      float: none;
+      margin-top: 30px;
+    }
+
+    div.certificate {
+      width: 100%;
+      margin: 10px;
+    }
+
+    .button {
+      font-size: 14px;
+      padding: 12px 24px;
+    }
+  }
